@@ -2,6 +2,7 @@
     #menu {
         float: right;
         display: inline-block;
+        visibility: visible;
     }
     .menuitem {
         display: inline;
