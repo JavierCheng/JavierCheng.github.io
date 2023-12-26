@@ -4,7 +4,7 @@
         display: inline-block;
     }
     .menuitem {
-        display: none;
+        display: inline;
     }
     .menuitem + .menuitem {
         border-left: 1px solid white;
