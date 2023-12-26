@@ -7,6 +7,17 @@ window.onload = function() {
         else {
             menu.className = 'hiddenmenu';
         }
+        document.getElementById('about').onclick = function() {
+    document.getElementById('container').innerHTML = "";
+    document.getElementById('controls').innerHTML = "";
+    document.getElementById('menu').className = 'hiddenmenu';
+    var container = document.getElementById('container');
+    var p = document.createElement('p');
+    p.id = 'aboutus';
+    container.appendChild(p);
+    var text = document.createTextNode("This tutorial is made possible through Eqela Developer Network");
+    p.appendChild(text);
+}
     }
 }
 //checks if the browser supports web storage
