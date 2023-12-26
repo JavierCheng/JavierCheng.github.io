@@ -19,6 +19,15 @@ window.onload = function() {
     p.appendChild(text);
 }
     }
+    var home = document.getElementById('container').innerHTML;
+var controls = document.getElementById('controls').innerHTML;
+display_saved_note();
+document.getElementById('home').onclick = function() {
+    document.getElementById('container').innerHTML = home;
+    document.getElementById('controls').innerHTML = controls;
+    document.getElementById('menu').className = 'hiddenmenu';
+    display_saved_note();
+}
 }
 //checks if the browser supports web storage
 function check_web_storage_support() {
