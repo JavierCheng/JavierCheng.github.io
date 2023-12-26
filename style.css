@@ -121,3 +121,10 @@ a.button:active {
     font: 14px arial;
     text-align: center;
 }
+
+#aboutus {
+    margin: 8px;
+    color: #96c56f;
+    font: 16px arial;
+    text-align: center;
+}
